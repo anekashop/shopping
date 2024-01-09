@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+<meta charset="UTF-8">
+<title>Aneka Shop - {{ page.title }}</title>
+<meta name="description" content="Semua produk terbaik tersedia disini" />
+<meta name="keywords" content="produk, eccomerce, katalog, jual online, affiliate" />
+{% include css.html %}
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <table summary="database clashmwns" class="table table-bordered table-hover dt-responsive">
+      <h3 class="text-center">Aneka Shop</h3>
+        <caption class="text-center">Semua produk tersedia disini</caption>
+        <thead>
+          <tr>
+            <th>Foto Produk</th>
+            <th>Nama Produk</th>
+            <th>Kategori</th>
+            <th>Harga</th>
+            <th>Pesan Produk</th>
+          </tr>
+        </thead>
+        <tbody>
+{{ content }}
+</tbody>
+<tfoot>
+<tr>
+{% include navigasi.html %}
+</tr>
+</tfoot>
+</table>
+</div>
+</div>
+</div>
+{% include javascript.html %}
+</body>
+</html>

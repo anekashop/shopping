@@ -1,0 +1,13 @@
+---
+title: Shopping
+layout: default
+---
+        {% for post in site.posts %}
+          <tr>
+            <td><img src="{{ post.image }}" width="70px" height="70px"></td>
+            <td>{{ post.title }}</td>
+            <td>{{ post.kategori }}</td>
+            <td>Rp{{ post.harga }}</td>
+            <td><center><a href="{{ post.link }}" >Beli</a></center></td>       
+          </tr>
+        {% endfor %}
