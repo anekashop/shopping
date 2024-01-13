@@ -1,3 +1,38 @@
 title: Aneka Shop
 description: Website jual beli online terbaik
 baseurl: "/"
+
+email: anekashop2024@gmail.com
+whatsapp: https://wa.me/6287764241047
+telegram: 
+messenger:
+
+about: 
+privacy-policy: 
+disclaimer: 
+sitemap: 
+donasi: 
+
+facebook: 
+youtube: 
+instagram: 
+tiktok: 
+
+affiliate: 
+store-shop: 
+agen-pulsa: 
+agen-crypto: 
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+    -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
