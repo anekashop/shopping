@@ -22,17 +22,3 @@ affiliate:
 store-shop: 
 agen-pulsa: 
 agen-crypto: 
-
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-    -
-    scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "page"
