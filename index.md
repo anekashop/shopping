@@ -2,15 +2,15 @@
 title: Beranda
 layout: default
 ---
-  {% includes navigasi.html %}
-  {{% includes carousel.html %}}
-  {% includes kategori-produk.html %}
-  {% includes produk-baju.html %}
-  {% includes produk-celana.html %}
-  {% includes produk-hijab.html %}
-  {% includes produk-assesoris.html %}
-  {% includes produk-alat-rumah.html %}
-  {% includes produk-alat-dapur.html %}
-  {% includes produk-alat-wifi.html %}
-  {% includes produk-elektronik.html %}
-  {% includes footer.html %}
+  {% include navigasi.html %}
+  {% include carousel.html %}
+  {% include kategori-produk.html %}
+  {% include produk-baju.html %}
+  {% include produk-celana.html %}
+  {% include produk-hijab.html %}
+  {% include produk-assesoris.html %}
+  {% include produk-alat-rumah.html %}
+  {% include produk-alat-dapur.html %}
+  {% include produk-alat-wifi.html %}
+  {% include produk-elektronik.html %}
+  {% include footer.html %}
